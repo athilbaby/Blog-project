@@ -1,4 +1,4 @@
-import { TextField, Typography } from '@mui/material'
+import { Button, TextField, Typography } from '@mui/material'
 import React from 'react'
 
 const Blog = () => {
@@ -17,6 +17,9 @@ const Blog = () => {
             Author name:
         </Typography>
         <TextField id ="grade-input"authorname='aut'  label="Filled" variant="filled" />
+        <br/>
+        <br/>
+        <Button variant='contained'>Submit</Button>
         
 
     </div>
